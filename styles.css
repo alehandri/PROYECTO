@@ -1,15 +1,8 @@
-/*FUENTES*/
-@font-face {
-    font-family: "friends";
-    src: url("fonts/friends.eot");
-    src: url("fonts/friends.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 /*ESTILOS GENERALES*/
 body {
-    background-image:url(https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fa582232-6097-4d90-92a6-5b91ebcf9b81/signup-bg.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220505%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220505T064529Z&X-Amz-Expires=86400&X-Amz-Signature=53b85c79a759721615960371cd6cfbba97bf6fa5a16e9d7e76aec5dcb75481ac&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22signup-bg.jpg%22&x-id=GetObject);
+    background-image:url('./imagenes/signup-bg.jpg');
     background-size: 100%;
 }
 
@@ -18,9 +11,7 @@ body {
     margin-top: 30px;
     height: 300px;
 }
-.card-title{
-    font-family: "friends";
-}
+
 .btn-primary{
     border-radius: 2px;
     border: 1px solid green;
